@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js" type="module"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="bg">
+        <h1 class="nav-logo">Awesome Books</h1>
+
+        <ul>
+            <li class="list-li">List</li>
+            <li class="add-new">Add New</li>
+            <li class="contact-li">Contact</li>
+        </ul>
+        <div class="time"></div>
+    </nav>
+    <main>
+
+        <div class="container book-conatiner">
+            <h1>All Awesome Books</h1>
+            <div class="list-Container"></div>
+        </div>
+
+        <div class="container form-conatiner">
+            <h1>Add New Book</h1>
+            <form class="bg add-form">
+                <label for="title" hidden>Title</label>
+                <input
+                   type="text"
+                   placeholder="Enter Book title"
+                   name="title"
+                   id="title"
+                />
+                <label for="author" hidden>Author</label>
+                <input 
+                  type="text"
+                  placeholder="Enter Book Author"
+                  name="author"
+                  id="author"
+                />
+                <div>
+                    <button class="add-btn" type="submit">Add</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="container contact-conatiner">
+            <h1>Contact Information</h1>
+            <div class="contact">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit repellat aperiam est. Repudiandae tenetur sit a ab,.</p>
+
+                <ul>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit Lorem, ipsum dolor.</li>
+                    <li>Lorem ipsum dolor sit amet. Lorem, ipsum dolor.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="loader">
+            <div class="loader small"></div>
+        </div>
+    </main>
+    <footer class="bg">
+        <p>Copyright...</p>
+    </footer>
+</body>
+</html>
